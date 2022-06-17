@@ -110,6 +110,11 @@
 
 .ph1 {
   padding: 10px;
+  width: 65%;
+}
+
+.ph2 {
+  width: 35%;
 }
 
 .quoteHeader .quoteHeading h3 {
@@ -221,6 +226,9 @@
   background-color: #ed565b;
   color: #fff;
 }
+.padding th,td {
+  padding: 2px 0.5rem 2px 0.5rem;
+}
 
 @media print {
   .main-content {
@@ -268,5 +276,22 @@
     .borderRight {
       border-right: 1px solid #000;
     }
+        .headerRight {
+          margin-top: 15px;
+          font-size: 18px;
+          font-weight: 700;
+          border-top: none;
+            border-right: none;
+            border-bottom: none;
+            border-left: none;
+        }
+    
+        .headerRight ul li {
+          border-bottom: none;
+        }
+        .borderRight {
+          border-bottom: 1px solid #000;
+          border-top: 1px solid #000;
+        }
 
 }
